@@ -1,0 +1,104 @@
+.body{
+    padding-top: 20px;
+    background-color: rgb(34, 41, 39);
+    height: 80px;
+    width: 100%;
+ }
+ .stiky{
+     left: 0;
+     top: 0;
+     right: 0;
+     position: sticky;
+ }
+ .nitam{
+     /* background-color:orange; */
+     width: 100% !important;
+ }
+ .futter{
+     height: 100px;
+     background-color: rgb(215, 97, 29);
+     bottom: 0;
+     right: 0;
+     left: 0;
+     /* position: sticky; */
+     padding-top: 40px;
+     
+ }
+ .nk{
+     margin-top: 20px;
+     text-align: center;
+     border-radius: 5px;
+     border-color: white;
+     border:white solid;
+ }
+ .imageWrapper {
+     /* width: 600px; */
+     /* height: auto; */
+     overflow: hidden;
+     border: 1px solid white;
+ }
+ 
+ .imageZoom {
+     transition: 0.3s;
+ }
+ 
+ .imageZoom:hover {
+     transform: scale(1.1);
+     opacity: 0.7;
+ }
+ 
+ .bg {
+     width: 100%;
+     height: 300px;
+     background-image: url(./img/footer-anner.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-attachment: fixed;
+ }
+ .text4{
+     font-size: 40px;
+     color: antiquewhite;
+     text-align: center;
+     padding-top: 100px;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+ .text5{
+     font-size: 15px;
+     color: orangered;
+     text-align: center;
+     padding-top: 15px;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+ .apply{
+     text-decoration:none;
+     color: orangered;
+     }
+     
+ .apply:hover {
+     text-decoration:underline;
+     color: aqua;
+     }
+ .bg-image{
+     background-image: url(./img/banner-footer.jpg);
+     background-position: center;
+     background-attachment: fixed;
+     height: 300px;
+ }
+ .vbn{
+     background-color: white;
+     height: 40px;
+     width: 150px;
+     border-radius: 10px;
+     border-color: aliceblue;
+ }
+ .over:hover{
+     color: white;
+ }
+ /* #footer{
+     background-color:rgb(215, 97, 29) ;
+     height: 100px;
+     top: 0;
+     right: 0;
+     left: 0;
+     position: sticky;
+ } */
